@@ -75,7 +75,7 @@ fun Calculator(
                         .aspectRatio(1f)
                         .weight(1f),
                     onclick = {
-                        onAction(CalculatorAction.Operation(CalculatorOperations.Divide))
+                        onAction(CalculatorAction.Operation(CalculatorOperation.Divide))
                     }
                 )
 
@@ -110,7 +110,7 @@ fun Calculator(
                             .aspectRatio(1f)
                             .weight(1f),
                         onclick = {
-                            onAction(CalculatorAction.Operation(CalculatorOperations.Divide))
+                            onAction(CalculatorAction.Operation(CalculatorOperation.Divide))
                         }
                     )
                 }
@@ -156,7 +156,7 @@ fun Calculator(
                             .aspectRatio(1f)
                             .weight(1f),
                         onclick = {
-                            onAction(CalculatorAction.Operation(CalculatorOperations.Multiply))
+                            onAction(CalculatorAction.Operation(CalculatorOperation.Multiply))
                         }
                     )
                 }
@@ -202,7 +202,7 @@ fun Calculator(
                             .aspectRatio(1f)
                             .weight(1f),
                         onclick = {
-                            onAction(CalculatorAction.Operation(CalculatorOperations.Subtract))
+                            onAction(CalculatorAction.Operation(CalculatorOperation.Subtract))
                         }
                     )
                 }
@@ -248,7 +248,7 @@ fun Calculator(
                             .aspectRatio(1f)
                             .weight(1f),
                         onclick = {
-                            onAction(CalculatorAction.Operation(CalculatorOperations.Add))
+                            onAction(CalculatorAction.Operation(CalculatorOperation.Add))
                         }
                     )
                 }
