@@ -7,7 +7,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.kira.practicecalculatorcompose.ui.theme.PracticeCalculatorComposeTheme
@@ -26,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     buttonSpacing = buttonSpacing,
                     modifier = Modifier
                         .fillMaxSize()
-                        .background(Color.DarkGray)
+                        .background(MediumGray)
                         .padding(16.dp)
                 )
             }
