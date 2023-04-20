@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.kira.practicecalculatorcompose.ui.theme.MediumGray
 import com.kira.practicecalculatorcompose.ui.theme.PracticeCalculatorComposeTheme
 
 class MainActivity : ComponentActivity() {
